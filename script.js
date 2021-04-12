@@ -26,7 +26,7 @@ while (parseInt(guess) !== targetNumber) {
     } else {
         guess = prompt('Enter a valid Number');
     }
-    if (guess === 'q') break;
+    if (guess === 'quit') break;
 }
 
 if (guess === 'q') alert('You quit');
